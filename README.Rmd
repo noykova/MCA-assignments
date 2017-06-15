@@ -1,0 +1,33 @@
+---
+title: "README"
+author: "Neli Noykova"
+date: "June 15, 2017"
+output: html_document
+---
+
+
+# Multiple Correspondence Analysis (MCA): Theory and Practice, Spring 2017, University of Helsinki
+
+
+
+## Brief description 
+
+This repository consists of assignment sets description during the introductionary  course on Multiple Correspondence Analysis (MCA): Theory and Practice, which Professor Michael Greenacre gave in Spring 2017 at Helsinki University. 
+This course was very exciting and useful for me because it introduced to me the technique of MCA as extension of Correspondence Analysis (CA), two methods for unsupervised learning applied to categorical data.  These methods are useful for dimension reduction and allow different techniques for visualizations. 
+The methods of subset correspondent analysis and canonical correspondence analyses have been introduced. The so called middle categories and missing data could be treated via both methods.  Both approaches are valuable because we do not need to omit any missing data, just treat them as new categories. 
+The basic theoretical and geometric concepts have been introduced to us.  Different graphical presentations - contribution biplots, asymmetric and symmetric maps have been demonstrated. We have seen how the so called doubling of ratings data could be analyzed. 
+During the assignment sets we have mostly used the R code, provided by Professor Michael Greenacre with some small variations and different data. 
+
+
+### About this document 
+
+This is R Markdown document, created in R Studio (package Rmarkdown should be installed). 
+Here I have tried to explain as much as I have understood during the course.
+The results of the assigments are also shown. 
+
+### Link to my course diary
+
+Here is the link to my course diary:
+
+https://noykova.github.io/MultipleCorrespondenceAnalysis/
+

@@ -1,0 +1,30 @@
+---
+author: "Neli Noykova"
+title: "Multiple Correspondence Analysis: Assignments"
+output:
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_depth: 2
+    fig_caption: true
+    fig_width: 6
+    fig_height: 4
+    code_folding: hide
+---
+
+***
+  
+```{r child = "Assignment1_Description.Rmd"}
+```
+  
+***
+  
+```{r child = "Assignment2_Description.Rmd"}
+```
+
+***
+  
+```{r child = "Assignment3Final.Rmd"}
+```
+
+***
