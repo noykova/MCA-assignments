@@ -523,10 +523,10 @@ round(Finland.means,1)
 
 [Homogeneity Analysis in R:The Package homals](http://gifi.stat.ucla.edu/janspubs/2007/reports/deleeuw_mair_R_07b.pdf)
 
-[Package ‘homals’](https://cran.r-project.org/web/packages/homals/homals.pdf)
+[Package Â‘homalsÂ’](https://cran.r-project.org/web/packages/homals/homals.pdf)
 
 
-[Package ‘ca’](https://cran.r-project.org/web/packages/ca/ca.pdf)
+[Package Â‘caÂ’](https://cran.r-project.org/web/packages/ca/ca.pdf)
 
 [Oleg Nenadic and Michael Greenacre, Computation of Multiple Correspondence
 Analysis, with code in R](https://core.ac.uk/download/pdf/6591520.pdf)
