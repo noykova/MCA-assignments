@@ -1,15 +1,18 @@
 ---
+title: 'Multiple Correspondence Analysis: Assignments'
 author: "Neli Noykova"
-title: "Multiple Correspondence Analysis: Assignments"
 output:
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
   html_document:
-    theme: cosmo
-    toc: true
-    toc_depth: 2
-    fig_caption: true
-    fig_width: 6
-    fig_height: 4
     code_folding: hide
+    fig_caption: yes
+    fig_height: 4
+    fig_width: 6
+    theme: cosmo
+    toc: yes
+    toc_depth: 2
 ---
 
 <style type="text/css">
