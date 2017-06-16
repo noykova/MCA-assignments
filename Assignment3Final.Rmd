@@ -11,10 +11,10 @@ output:
 <style type="text/css">
 
 body{ /* Normal  */
-      font-size: 12px;
+      font-size: 18px;
   }
 td {  /* Table  */
-  font-size: 8px;
+  font-size: 16px;
 }
 h1.title {
   font-size: 38px;
@@ -34,10 +34,10 @@ h3 { /* Header 3 */
   color: DarkBlue;
 }
 code.r{ /* Code block */
-    font-size: 12px;
+    font-size: 16px;
 }
 pre { /* Code block - determines code spacing between lines */
-    font-size: 14px;
+    font-size: 16px;
 }
 </style>
 
@@ -176,6 +176,7 @@ plot(Finland.nlpca, plot.type="catplot")
 ![Figure 2A](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot2A.png)
 
 ![Figure 2B](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot2B.png)
+
 ![Figure 2C](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot2C.png)
 
 ![Figure 2D](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot2D.png)
@@ -210,6 +211,7 @@ plot(Finland.nlpca, plot.type="vecplot")
 ![Figure 4A](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot4A.png)
 
 ![Figure 4B](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot4B.png)
+
 ![Figure 4C](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot4C.png)
 
 ![Figure 4D](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot4D.png)
@@ -226,6 +228,7 @@ plot(Finland.nlpca, plot.type="lossplot")
 ![Figure 5A](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot5A.png)
 
 ![Figure 5B](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot5B.png)
+
 ![Figure 5C](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot5C.png)
 
 ![Figure 5D](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot5D.png)
@@ -255,6 +258,7 @@ plot(Finland.nlpca, plot.type="labplot")
 ![Figure 7A](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot7A.png)
 
 ![Figure 7B](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot7B.png)
+
 ![Figure 7C](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot7C.png)
 
 ![Figure 7D](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot7D.png)
@@ -269,6 +273,7 @@ plot(Finland.nlpca, plot.type="graphplot")
 ```
 
 ![Figure 8](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot8.png)
+
 ##9. Voronoi plot.
 It produces a category plot with Voronoi regions. Looks like contour lines forced to be straight and parallel. 
 
@@ -279,6 +284,7 @@ plot(Finland.nlpca, plot.type="vorplot")
 ![Figure 9A](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot9A.png)
 
 ![Figure 9B](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot9B.png)
+
 ![Figure 9C](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot9C.png)
 
 ![Figure 9D](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot9D.png)
@@ -295,9 +301,11 @@ plot(Finland.nlpca, plot.type="hullplot")
 ![Figure 10A](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot10A.png)
 
 ![Figure 10B](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot10B.png)
+
 ![Figure 10C](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot10C.png)
 
 ![Figure 10D](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot10D.png)
+
 # CA of doubled data
 
 The CA method could be applied on data, which have been preprocessed in different ways. One kind of preprocessing is so called doubling, which in this example is provided on data type ratings. We assume 1-to-5 Linkert scale, which starts at one. Then the first column consists of all ratings minus 1. Since rating 1 = "strongly agree", the transformed first column measure the strength of disagreements and therefore is called *negative pole*. The second column is 4 minus the first column and measure the strength of disagreements. The second column is called *positive pole*. 
@@ -317,6 +325,7 @@ plot(Finland.doubled.ca, col=c("lightblue","red"), labels=c(0,2), font=2, map="r
 ```
 
 ![Figure 11](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot11.png)
+
 Next we connect opposite categories in column standard coordinates and draw the contribution biplot. 
 
 ```{r eval=FALSE}
@@ -333,6 +342,7 @@ for(j in 1:4) segments(Finland.doubled.ccc[j,1],Finland.doubled.ccc[j,2],
 ```
 
 ![Figure 12](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot12.png)
+
 The polar positions in contribution coordinates are shown on Figure 13.
 ```{r eval=FALSE}
 # just the polar positions in contribution coordinates
@@ -374,6 +384,7 @@ confidenceplots(Finland.doubled.rpc[,1], Finland.doubled.rpc[,2], group=Finland$
 
  
 ![Figure 15](I:\Neli\HYKurssitKevat2017\MultipleCorrespondenceAnalysis\Data+files-20170512\Rplot14.png)
+
 Next we add confidence ellipses to the plot and show the resultt onFigure 14. 
 Only the confidence ellipses are shown on Figure 16. 
 ```{r eval=FALSE}
@@ -523,10 +534,10 @@ round(Finland.means,1)
 
 [Homogeneity Analysis in R:The Package homals](http://gifi.stat.ucla.edu/janspubs/2007/reports/deleeuw_mair_R_07b.pdf)
 
-[Package homals](https://cran.r-project.org/web/packages/homals/homals.pdf)
+[Package ÂhomalsÂ](https://cran.r-project.org/web/packages/homals/homals.pdf)
 
 
-[Package ca](https://cran.r-project.org/web/packages/ca/ca.pdf)
+[Package ÂcaÂ](https://cran.r-project.org/web/packages/ca/ca.pdf)
 
 [Oleg Nenadic and Michael Greenacre, Computation of Multiple Correspondence
 Analysis, with code in R](https://core.ac.uk/download/pdf/6591520.pdf)
